@@ -4,6 +4,7 @@ var x = sum(7,9,10)
     var y = multiply(6,9,5)
     println(y)
     subtraction(2022,1999)
+    modulos(19,3)
 }
 fun sum(a: Int, b: Int, c:Int, d:Int): Int{
 var add = a + b + c + d
@@ -21,6 +22,11 @@ fun subtraction(year: Int, year1: Int ){
     println("I just got " + sub + " years old")
     println("We are " + sub + " years old")
   main
+
+}
+fun modulos(numbs:Int,numbs1:Int){
+    var mod = numbs % numbs1
+println(mod)
 
 }
 
