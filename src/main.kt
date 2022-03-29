@@ -17,7 +17,7 @@ fun multiply(num1: Int, num2: Int, num3: Int): Int{
 fun subtraction(year1: Int, year2: Int ){
     var sub = year1 - year2
     println(sub)
-    println("I am " + sub + " years old")
+    println("I just got " + sub + " years old")
 
 }
 
