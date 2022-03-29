@@ -14,10 +14,10 @@ fun multiply(num1: Int, num2: Int, num3: Int, num4:Int): Int{
     return mult
 
 }
-fun subtraction(year1: Int, year2: Int ){
-    var sub = year1 - year2
+fun subtraction(year: Int, year1: Int ){
+    var sub = year - year1
     println(sub)
-    println("I am " + sub + " years old")
+    println("We are " + sub + " years old")
 
 }
 
