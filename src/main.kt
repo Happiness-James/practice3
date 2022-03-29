@@ -17,7 +17,10 @@ fun multiply(num1: Int, num2: Int, num3: Int, num4:Int): Int{
 fun subtraction(year: Int, year1: Int ){
     var sub = year - year1
     println(sub)
+ Mayiana
+    println("I just got " + sub + " years old")
     println("We are " + sub + " years old")
+  main
 
 }
 
