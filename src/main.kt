@@ -5,12 +5,12 @@ var x = sum(7,9,10)
     println(y)
     subtraction(2022,1999)
 }
-fun sum(a: Int, b: Int, c:Int): Int{
-var add = a + b + c
+fun sum(a: Int, b: Int, c:Int, d:Int): Int{
+var add = a + b + c + d
     return add
 }
-fun multiply(num1: Int, num2: Int, num3: Int): Int{
-    var mult = num1 * num2 * num3
+fun multiply(num1: Int, num2: Int, num3: Int, num4:Int): Int{
+    var mult = num1 * num2 * num3 * num4
     return mult
 
 }
